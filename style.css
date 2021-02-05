@@ -1,0 +1,141 @@
+body{
+	margin:0px;
+}
+
+.navblock{
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+}
+
+.navblock h1{
+	margin: 0px;
+}
+
+
+.navblock ul{
+	margin-bottom: 0rem;
+	margin-top: 0rem;
+	float:right;
+	margin-right: 10rem;
+}
+
+.navblock nav{
+	width: 100%;
+	height: 6.6rem;
+	background-color: rgba(121, 120, 120,0.2);
+	line-height: 6.6rem;
+}
+
+.navblock li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.65s all;
+}
+
+.navblock li:hover{
+	background-color: rgba(240, 248, 255,0.5); 
+}
+
+.navblock a{
+	text-decoration: none;
+	padding : 2rem;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 1rem;
+	color: white;
+}
+
+.navblock img{
+	height: 6rem;
+	width: 27rem;
+}
+
+.navblock .blockquote p{
+	font-family: "Times New Roman", Times, serif;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.navblock blockquote{
+	padding-top: 3rem;
+	padding-left: 40rem;
+	border: none;
+}
+
+
+.navblock .nav-footer{
+	color: #f2f2f2;
+}
+.container{
+	margin-top: 3rem;
+}
+
+.break{
+  border: 0.1rem solid #999999;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bedroom1{
+	width: 50%;
+	height: auto;
+	float: right;
+	padding-left: 4rem;
+}
+
+.Hotel1{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-right: 4rem;
+}
+
+.Description{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	margin:none;
+}
+
+
+.lead {
+	font-size: 3.5rem;
+	font-family: Candara;
+	font-weight: bold;
+	color: #737373;
+}
+
+.footer{
+	margin-top: 5rem;
+}
+
+.footer .Jumbotron{
+	background-color: #000000;
+	height: 20vh;
+	width: 100%;
+}
+
+.content .logo img{
+
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-right: 0;
+
+}
+
+.img-responsive{
+	border-radius: 2rem;
+}
+
+.Follow-Us{
+	float : right;
+	font-size: 2rem;
+}
+
+.Follow-Us a{
+	text-decoration: none;
+	color: white;
+	padding-right: 3rem;
+}
